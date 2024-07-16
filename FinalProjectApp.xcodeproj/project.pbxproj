@@ -14,6 +14,9 @@
 		1E24CEBB2C41C2A100DD05C6 /* FinalProjectAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E24CEBA2C41C2A100DD05C6 /* FinalProjectAppTests.swift */; };
 		1E24CEC52C41C2A100DD05C6 /* FinalProjectAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E24CEC42C41C2A100DD05C6 /* FinalProjectAppUITests.swift */; };
 		1E24CEC72C41C2A100DD05C6 /* FinalProjectAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E24CEC62C41C2A100DD05C6 /* FinalProjectAppUITestsLaunchTests.swift */; };
+		1EF6BFA82C46041C0006D72D /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6BFA72C46041C0006D72D /* SecondView.swift */; };
+		1EF6BFAA2C4605B90006D72D /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6BFA92C4605B90006D72D /* Explore.swift */; };
+		1EF6BFAC2C4605E40006D72D /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6BFAB2C4605E40006D72D /* Quiz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		1E24CEC02C41C2A100DD05C6 /* FinalProjectAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E24CEC42C41C2A100DD05C6 /* FinalProjectAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectAppUITests.swift; sourceTree = "<group>"; };
 		1E24CEC62C41C2A100DD05C6 /* FinalProjectAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1EF6BFA72C46041C0006D72D /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		1EF6BFA92C4605B90006D72D /* Explore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
+		1EF6BFAB2C4605E40006D72D /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 		1E24CE9D2C41C2A000DD05C6 = {
 			isa = PBXGroup;
 			children = (
+				1EF6BFAB2C4605E40006D72D /* Quiz.swift */,
+				1EF6BFA92C4605B90006D72D /* Explore.swift */,
+				1EF6BFA72C46041C0006D72D /* SecondView.swift */,
 				1E24CEA82C41C2A000DD05C6 /* FinalProjectApp */,
 				1E24CEB92C41C2A100DD05C6 /* FinalProjectAppTests */,
 				1E24CEC32C41C2A100DD05C6 /* FinalProjectAppUITests */,
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF6BFA82C46041C0006D72D /* SecondView.swift in Sources */,
+				1EF6BFAC2C4605E40006D72D /* Quiz.swift in Sources */,
 				1E24CEAC2C41C2A000DD05C6 /* ContentView.swift in Sources */,
 				1E24CEAA2C41C2A000DD05C6 /* FinalProjectAppApp.swift in Sources */,
+				1EF6BFAA2C4605B90006D72D /* Explore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
