@@ -19,6 +19,7 @@
 		1EF6BFAC2C4605E40006D72D /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6BFAB2C4605E40006D72D /* Quiz.swift */; };
 		1EF6C0262C470FCE0006D72D /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6C0252C470FCE0006D72D /* Environment.swift */; };
 		1EF6C02C2C472E0C0006D72D /* Arts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6C02B2C472E0C0006D72D /* Arts.swift */; };
+		8BFB83D42C483F6A0016E148 /* mentalHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFB83D32C483F6A0016E148 /* mentalHealth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		1EF6BFAB2C4605E40006D72D /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		1EF6C0252C470FCE0006D72D /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		1EF6C02B2C472E0C0006D72D /* Arts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arts.swift; sourceTree = "<group>"; };
+		8BFB83D32C483F6A0016E148 /* mentalHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentalHealth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				1EF6C0252C470FCE0006D72D /* Environment.swift */,
 				1EF6C02B2C472E0C0006D72D /* Arts.swift */,
+				8BFB83D32C483F6A0016E148 /* mentalHealth.swift */,
 				1EF6BFAB2C4605E40006D72D /* Quiz.swift */,
 				1EF6BFA92C4605B90006D72D /* Explore.swift */,
 				1EF6BFA72C46041C0006D72D /* SecondView.swift */,
@@ -276,6 +279,7 @@
 				1EF6BFA82C46041C0006D72D /* SecondView.swift in Sources */,
 				1EF6C0262C470FCE0006D72D /* Environment.swift in Sources */,
 				1EF6BFAC2C4605E40006D72D /* Quiz.swift in Sources */,
+				8BFB83D42C483F6A0016E148 /* mentalHealth.swift in Sources */,
 				1E24CEAC2C41C2A000DD05C6 /* ContentView.swift in Sources */,
 				1E24CEAA2C41C2A000DD05C6 /* FinalProjectAppApp.swift in Sources */,
 				1EF6BFAA2C4605B90006D72D /* Explore.swift in Sources */,
