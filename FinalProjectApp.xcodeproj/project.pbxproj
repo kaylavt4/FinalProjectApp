@@ -20,6 +20,16 @@
 		1EF6C0262C470FCE0006D72D /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6C0252C470FCE0006D72D /* Environment.swift */; };
 		1EF6C02C2C472E0C0006D72D /* Arts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6C02B2C472E0C0006D72D /* Arts.swift */; };
 		8BFB83D42C483F6A0016E148 /* mentalHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFB83D32C483F6A0016E148 /* mentalHealth.swift */; };
+		BD8255C92C49974D0016324E /* HourLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8255C82C49974D0016324E /* HourLog.swift */; };
+		BDA4C1D92C499BE500C866D7 /* Question1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4C1D82C499BE500C866D7 /* Question1.swift */; };
+		BDA4C1DB2C499C0600C866D7 /* Question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4C1DA2C499C0600C866D7 /* Question2.swift */; };
+		BDA4C1DD2C499EA200C866D7 /* Question 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4C1DC2C499EA100C866D7 /* Question 3.swift */; };
+		BDA4C1DF2C49AA3900C866D7 /* QuizFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4C1DE2C49AA3900C866D7 /* QuizFinal.swift */; };
+		BDA4C1E12C49AD3000C866D7 /* Health.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4C1E02C49AD3000C866D7 /* Health.swift */; };
+		BDA4C1E32C49AD8600C866D7 /* Homeless.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4C1E22C49AD8600C866D7 /* Homeless.swift */; };
+		BDA4C1E52C49ADFE00C866D7 /* Elderly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4C1E42C49ADFE00C866D7 /* Elderly.swift */; };
+		BDA4C1E72C49AE2500C866D7 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4C1E62C49AE2500C866D7 /* Education.swift */; };
+		BDA4C1E92C49AE5300C866D7 /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4C1E82C49AE5300C866D7 /* Animals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +66,16 @@
 		1EF6C0252C470FCE0006D72D /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		1EF6C02B2C472E0C0006D72D /* Arts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arts.swift; sourceTree = "<group>"; };
 		8BFB83D32C483F6A0016E148 /* mentalHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentalHealth.swift; sourceTree = "<group>"; };
+		BD8255C82C49974D0016324E /* HourLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourLog.swift; sourceTree = "<group>"; };
+		BDA4C1D82C499BE500C866D7 /* Question1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1.swift; sourceTree = "<group>"; };
+		BDA4C1DA2C499C0600C866D7 /* Question2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2.swift; sourceTree = "<group>"; };
+		BDA4C1DC2C499EA100C866D7 /* Question 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question 3.swift"; sourceTree = "<group>"; };
+		BDA4C1DE2C49AA3900C866D7 /* QuizFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizFinal.swift; sourceTree = "<group>"; };
+		BDA4C1E02C49AD3000C866D7 /* Health.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health.swift; sourceTree = "<group>"; };
+		BDA4C1E22C49AD8600C866D7 /* Homeless.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeless.swift; sourceTree = "<group>"; };
+		BDA4C1E42C49ADFE00C866D7 /* Elderly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elderly.swift; sourceTree = "<group>"; };
+		BDA4C1E62C49AE2500C866D7 /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
+		BDA4C1E82C49AE5300C866D7 /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +110,18 @@
 				1EF6C02B2C472E0C0006D72D /* Arts.swift */,
 				8BFB83D32C483F6A0016E148 /* mentalHealth.swift */,
 				1EF6BFAB2C4605E40006D72D /* Quiz.swift */,
+				BDA4C1D82C499BE500C866D7 /* Question1.swift */,
+				BDA4C1DA2C499C0600C866D7 /* Question2.swift */,
+				BDA4C1DC2C499EA100C866D7 /* Question 3.swift */,
+				BDA4C1DE2C49AA3900C866D7 /* QuizFinal.swift */,
 				1EF6BFA92C4605B90006D72D /* Explore.swift */,
 				1EF6BFA72C46041C0006D72D /* SecondView.swift */,
+				BD8255C82C49974D0016324E /* HourLog.swift */,
+				BDA4C1E02C49AD3000C866D7 /* Health.swift */,
+				BDA4C1E22C49AD8600C866D7 /* Homeless.swift */,
+				BDA4C1E42C49ADFE00C866D7 /* Elderly.swift */,
+				BDA4C1E62C49AE2500C866D7 /* Education.swift */,
+				BDA4C1E82C49AE5300C866D7 /* Animals.swift */,
 				1E24CEA82C41C2A000DD05C6 /* FinalProjectApp */,
 				1E24CEB92C41C2A100DD05C6 /* FinalProjectAppTests */,
 				1E24CEC32C41C2A100DD05C6 /* FinalProjectAppUITests */,
@@ -276,11 +306,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EF6C02C2C472E0C0006D72D /* Arts.swift in Sources */,
+				BDA4C1E92C49AE5300C866D7 /* Animals.swift in Sources */,
+				BDA4C1D92C499BE500C866D7 /* Question1.swift in Sources */,
+				BDA4C1DD2C499EA200C866D7 /* Question 3.swift in Sources */,
 				1EF6BFA82C46041C0006D72D /* SecondView.swift in Sources */,
 				1EF6C0262C470FCE0006D72D /* Environment.swift in Sources */,
 				1EF6BFAC2C4605E40006D72D /* Quiz.swift in Sources */,
 				8BFB83D42C483F6A0016E148 /* mentalHealth.swift in Sources */,
+				BDA4C1DF2C49AA3900C866D7 /* QuizFinal.swift in Sources */,
+				BDA4C1E72C49AE2500C866D7 /* Education.swift in Sources */,
+				BDA4C1DB2C499C0600C866D7 /* Question2.swift in Sources */,
+				BDA4C1E52C49ADFE00C866D7 /* Elderly.swift in Sources */,
+				BD8255C92C49974D0016324E /* HourLog.swift in Sources */,
+				BDA4C1E32C49AD8600C866D7 /* Homeless.swift in Sources */,
 				1E24CEAC2C41C2A000DD05C6 /* ContentView.swift in Sources */,
+				BDA4C1E12C49AD3000C866D7 /* Health.swift in Sources */,
 				1E24CEAA2C41C2A000DD05C6 /* FinalProjectAppApp.swift in Sources */,
 				1EF6BFAA2C4605B90006D72D /* Explore.swift in Sources */,
 			);

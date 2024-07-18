@@ -11,10 +11,10 @@ struct ContentView: View {
     var body: some View {
         
         
-            NavigationStack {
-                ZStack {
-                    Color.init(red: 253/255, green: 233/255, blue: 234/255)
-                        .edgesIgnoringSafeArea(.all)
+        NavigationStack {
+            ZStack {
+                Color.init(red: 253/255, green: 233/255, blue: 234/255)
+                    .edgesIgnoringSafeArea(.all)
                 VStack {
                     Text("Welcome to...")
                         .font(.subheadline)
@@ -25,7 +25,7 @@ struct ContentView: View {
                         .fontWeight(.bold)
                         .foregroundColor(Color(red: 109/255, green: 139/255, blue: 133/255, opacity: 1.0))
                         .frame(alignment: .top)
-                
+                    
                     Image("FindYourImpact")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
@@ -45,20 +45,28 @@ struct ContentView: View {
                         .padding()
                     
                     //                    NavigationLink(destination: Text("You've arrived to the second view! 🎊")) {
-                    //                    //   /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label Content@*/Text("Navigate")/*@END_MENU_TOKEN@*/ changes the button text:
+                    //                    //   /*@PLACEHOLDER=Label Content@*/Text("Navigate") changes the button text:
                     //                    Text("Click me!")
                     //                    .foregroundColor(Color(red: 109/255, green: 139/255, blue: 133/255, opacity: 1.0))
                         .toolbar {
                             ToolbarItemGroup(placement: .status){
                                 NavigationLink(destination: Explore()) {
-                                    Text("Explore Opportunities")
+                                    Text("Explore")
                                 }
                                 .tint(Color(red: 241/255, green: 182/255, blue: 172/255, opacity: 1.0))
                                 .buttonStyle(.borderedProminent)
                                 .padding()
                                 .fixedSize(horizontal: false, vertical: true)
                                 NavigationLink(destination: Quiz()) {
-                                    Text("Take an Interest Quiz")
+                                    Text("Quiz")
+                                }
+                                .tint(Color(red: 241/255, green: 182/255, blue: 172/255, opacity: 1.0))
+                                .buttonStyle(.borderedProminent)
+                                .padding()
+                                .fixedSize(horizontal: false, vertical: true)
+                                
+                                NavigationLink(destination: HourLog()) {
+                                    Text("Hour Log")
                                 }
                                 .tint(Color(red: 241/255, green: 182/255, blue: 172/255, opacity: 1.0))
                                 .buttonStyle(.borderedProminent)
